@@ -1,0 +1,48 @@
+buildscript {
+    repositories {
+        jcenter()
+    }
+
+    dependencies {
+        classpath 'com.android.tools.build:gradle:2.2.3'
+    }
+}
+
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion "23.0.1"
+
+    defaultConfig {
+        minSdkVersion 16
+        targetSdkVersion 23
+        versionCode 1
+        versionName "1.0"
+        ndk {
+            abiFilters "armeabi-v7a", "x86"
+        }
+    }
+    lintOptions {
+      abortOnError false
+      warning 'InvalidPackage'
+    }
+}
+
+
+repositories {
+  mavenCentral()
+}
+
+dependencies {
+  compile "com.facebook.react:react-native:+"
+  //compile 'tv.danmaku.ijk.media:ijkplayer-java:+'
+  //compile 'tv.danmaku.ijk.media:ijkplayer-armv7a:+'
+
+  //compile 'tv.danmaku.ijk.media:ijkplayer-armv5:+'
+  //compile 'tv.danmaku.ijk.media:ijkplayer-arm64:+'
+  //compile 'tv.danmaku.ijk.media:ijkplayer-x86:+'
+  //compile 'tv.danmaku.ijk.media:ijkplayer-x86_64:+'
+
+  //compile 'tv.danmaku.ijk.media:ijkplayer-exo:+'
+}

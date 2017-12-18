@@ -1,0 +1,18 @@
+{
+  "author" : "",
+  "license" : "",
+  "peerDependencies" : {
+    "react-native-windows" : "0.51.0",
+    "react-native" : "0.51.0"
+  },
+  "keywords" : [
+    "react-native"
+  ],
+  "version" : "1.0.0",
+  "description" : "",
+  "main" : "index.js",
+  "name" : "react-native-react-native-camera",
+  "scripts" : {
+    "test" : "echo \"Error: no test specified\" && exit 1"
+  }
+}

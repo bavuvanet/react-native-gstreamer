@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/bavv/LUCI/Projects/smart-home/LumiLife/node_modules/react-native-camera/android/build/intermediates/res/merged/release/color-v23/abc_color_highlight_material.xml",
+        "source": "/Users/bavv/LUCI/Projects/smart-home/LumiLife/node_modules/react-native-camera/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/color-v23/abc_color_highlight_material.xml"
+    },
+    {
+        "merged": "/Users/bavv/LUCI/samples/LumiLifeCameraTest/node_modules/react-native-camera/android/build/intermediates/res/merged/release/color-v23/abc_color_highlight_material.xml",
+        "source": "/Users/bavv/LUCI/samples/LumiLifeCameraTest/node_modules/react-native-camera/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/color-v23/abc_color_highlight_material.xml"
+    }
+]
